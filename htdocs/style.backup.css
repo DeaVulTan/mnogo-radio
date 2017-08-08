@@ -1,0 +1,63 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+html, body {padding:0px; width:100%; height: 100%;background:#FFF; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:14px;}
+h1 {font-size:22px; padding:10px 25px 15px 25px; margin:0px; font-weight:normal; color:#1B76A5;}
+h2 {font-size:20px; margin:7px 0px 14px 0px; padding:2px 25px; font-weight:normal; background-color:#F1F4F1; color:#42852D;}
+p {margin:0px 0px 10px 0px; padding:0px; text-align:justify;}
+p.on-air {margin:0px 0px 22px 0px;}
+.on-air a{color:#09354E; text-decoration:none;}
+.on-air a:hover{color:#3798A4; text-decoration:underline;}
+.on-air a:active{color:#48B550; text-decoration:underline;}
+.on-air-channel a{color:#810D0D; font-weight:bold; text-decoration:none;}
+.on-air-channel a:hover{color:#9f1111; text-decoration:underline;}
+.on-air-channel a:active{color:#DBA126; text-decoration:underline;}
+.outer {width:960px; margin:0px auto;}
+.main {width:540px; margin:0px auto; border-left:solid 1px #CCC; border-right:solid 1px #CCC; padding:10px;}
+table.table_channels {margin:0px auto; width:100%;}
+table.table_channels td {vertical-align:top;}
+.header {width:100%; height:250px; background:url(/img/header.jpg) center;}
+.sidebar {width:190px; height:100%; padding:0px;}
+.sidebar-left {float:left; margin-right:5px; padding-left:3px;}
+.sidebar-right {float:right; margin-left:5px; padding-right:3px;}
+.sidebar-vote {font-size:12px; margin-bottom:20px;}
+.sidebar-vote ul {padding:0px; margin:0px;}
+.sidebar-vote li {list-style-type:none;}
+.channel-title {font-size:18px; margin:3px 15px 5px 15px; color:#810d0d; text-align:right;}
+.channel-listen {height:23px; background:url(/img/channel_listen_bg.png) right no-repeat;}
+.channel-listen object.listen-online {margin:0px 3px 0px 8px; padding-top:3px; width:20px; float:left;}
+.listen-playlist {padding-top:3px; float:none;}
+.listen-playlist a{color:#1F8D9E; text-decoration:none;}
+.listen-playlist a:hover{color:#278CCD; text-decoration:underline;}
+.listen-playlist a:active{color:#3FAE2B; text-decoration:underline;}
+.vote-channelname {color:#467F18; font-size:16px; padding:3px 10px; font-weight:bold;}
+.vote-percent {font-size:9px; color:#4E4E4E}
+.ok {text-align:center; background-color:#459F30; color:#FFF; font-size:11px; font-weight:bold; margin-bottom:2px;}
+.error {text-align:center; background-color:#9E2712; color:#FFF; font-size:11px; font-weight:bold; margin-bottom:2px;}
+/* SINGLE PROGRESS BAR */
+
+.progressBar{
+	width:180px;
+	height:5px;
+	background:#FFF no-repeat 0 0;
+	position:relative;
+}
+.progressBar span{
+	position:absolute;
+	display:block;
+	width:180px;
+	height:5px;
+	background:#069;
+	top:3px;
+	left:8px;
+	overflow:hidden;
+	text-indent:-8000px;
+}
+.progressBar em{
+	position:absolute;
+	display:block;
+	width:180px;
+	height:5px;
+	background:url(/img/bg_cover.gif) repeat-x 0 0;
+	top:0;
+}

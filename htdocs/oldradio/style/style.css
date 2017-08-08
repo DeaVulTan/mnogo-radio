@@ -1,0 +1,73 @@
+body {
+	margin:0px;
+	padding:0px;
+	font-size:12px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+img {border:0}
+object {float:left}
+a {color:#fff;}
+a:hover {text-decoration:none}
+#header {
+	background:url(../images/top_background_volume.jpg) #01267F;
+	height:103px;
+}
+#header h1 {display:none}
+#content {
+	width:460px;
+	margin: 0px auto;
+	padding:10px 0; 
+}
+#footer {
+	width:100%;
+	position:absolute;
+	bottom:0;
+	background-color:#01267F;
+	color:#fff;
+}
+#footer p {
+	margin:0;
+	padding:10px;
+	font-family:Arial, Helvetica, sans-serif;	
+}
+.radiostation {
+	width:455px;
+	position:relative;
+	margin-left:10px;
+	background-color:#66f;
+	border:1px #01267F solid;
+}
+.radiostation h2 {
+	margin:0; 
+	padding:5px;
+	border-bottom:1px #01267F solid;
+	color:#dedeff;
+	font-size:14px;
+	cursor:pointer; 
+}
+.radiostation p {
+	padding:5px;
+	text-align:justify;
+	color:#fff;
+}
+.listen {
+	width:80px;
+	position:absolute;
+	top:2px;
+	right:2px;
+	margin:0;
+	padding:0; !important;
+	background:#fff;
+	text-align:right !important; 
+}
+.listen a {color:#66f; font-weight:bold;}
+.about {
+	margin-top:0;
+	border-bottom:1px #01267F solid;
+	background:#fff;
+	color:#01267F !important;
+}
+.links {margin:0;}
+#uzbegim {background:green}
+#copyright {float:left}
+#validation {float:right}

@@ -1,0 +1,40 @@
+body {margin:0px;}
+#header {
+	background:url(../images/top_background_volume.jpg) #01267F;
+	height:103px;
+}
+#container {margin: 0px auto;}
+#content {margin: 0px auto; width:930px;}
+#content img {border:0; margin:0;}
+.radiostation p {margin:0px; padding:5px; border:solid 1px #01267F; background-color:#66f; font: 12px Verdana; color:#fff;}
+.radiostation a {margin:0;}
+.radiostation {
+	float:right;
+	width:455px;
+	height:280px;
+	margin-right:10px;
+	margin-top:10px;
+}
+p.name {height:25px; font-size:14px; font-weight:bold;}
+a.listen {display:block; float:right; width:216px; height:23px; text-align:center; position:relative; bottom: 15px; background:url(../images/bg_station_lg.gif) no-repeat; padding-top:4px;}
+p.about {height:100px;}
+#footer {
+	background-color:#01267F;
+	width:100%;
+	height:50px;
+	font-family: arial, sans-serif;
+	font-size:12px;
+	color:#fff;
+	clear:right;
+}
+#footer p {
+	margin:0px 20px 0px;
+	padding-top:10px;	
+}
+a {
+	text-decoration:none;
+	color:#fff; 
+	margin:10px 20px 0px 0px; 
+	font-size:12px;
+}
+a:hover {text-decoration:underline}

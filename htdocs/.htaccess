@@ -1,0 +1,8 @@
+Options +FollowSymLinks 
+RewriteEngine on 
+RewriteCond %{HTTP_HOST} ^radio.st.uz$ [OR]
+RewriteCond %{HTTP_HOST} ^radio.stream.uz$ [OR]
+RewriteCond %{HTTP_HOST} ^radio.mystream.uz$ [OR]
+RewriteCond %{HTTP_HOST} ^www.myradio.uz [NC] 
+RewriteRule ^(.*)$ http://myradio.uz/$1 [L,R=301]
+Options -Indexes
